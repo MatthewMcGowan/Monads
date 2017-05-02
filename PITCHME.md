@@ -6,6 +6,25 @@
 
 ---
 
+# .NET
+
++++
+
+```csharp
+Nullable<T>
+```
+```csharp
+IEnumerable<T>
+```
+```csharp
+Task<T>
+```
+```csharp
+Func<T>
+```
+
+---
+
 # Monoids
 
 ---
@@ -82,19 +101,20 @@ Integer Addition
 +++
 
 ```csharp
-public string Repeat(string x, int times)
+public string Concat(string x, string y)
 {
-  string retVal = string.Empty;
-  
-  for (int i = 0; i <= times; i++)
-  {
-    retVal += x;
-  }
-  
-  return retVal;
+  return x + y;
 }
 
 ```
+
+---
+
+## Definition
+
+* S × S → S
+* x is Associative
+* There exists an identity element
 
 ---
 
@@ -115,25 +135,6 @@ public SHA256 HashString(string value, string hashKey)
 {
   ...
 }
-```
-
----
-
-# .NET
-
-+++
-
-```csharp
-Nullable<T>
-```
-```csharp
-IEnumerable<T>
-```
-```csharp
-Task<T>
-```
-```csharp
-Func<T>
 ```
 
 ---
