@@ -138,7 +138,7 @@ Func<T>
 
 ---
 
-# References and Images
+## References and Images
 
 * https://en.wikipedia.org/wiki/Monoid
 * https://en.wikipedia.org/wiki/Binary_operation
