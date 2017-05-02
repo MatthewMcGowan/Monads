@@ -1,5 +1,9 @@
 # Monads
 
++++
+
+> All told, a monad in X is just a monoid in the category of endofunctors of X, with product × replaced by composition of endofunctors and unit set by the identity endofunctor.
+
 ---
 
 # Monoids
@@ -18,18 +22,16 @@
 
 ## Binary Operation
 
++++
+
 ![BinaryOperation](Images/Binary_operations_as_black_box_scaled.png)
 
 +++
-
-## Binary Operation
 
 * +, -, \*, / 
 * String concatenation
 
 +++
-
-## Binary Operation
 
 ```csharp
 public string Repeat(string x, int times)
@@ -45,6 +47,20 @@ public string Repeat(string x, int times)
 }
 
 ```
+
++++
+
+## So Far
+
+
+
+## Associativity
+
+
+
++++
+
+## Examples
 
 ---
 
