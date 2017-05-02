@@ -123,10 +123,18 @@ public SHA256 HashString(string value, string hashKey)
 
 +++
 
-* Nullable\<T>
+```csharp
+Nullable\<T>
+```
+```csharp
 * IEnumerable\<T>
+```
+```csharp
 * Task\<T>
+```
+```csharp
 * Func\<T>
+```
 
 ---
 
