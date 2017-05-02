@@ -126,10 +126,6 @@ public string Concat(string x, string y)
 
 +++
 
-Positive integers with addition
-
-+++
-
 Floats with multiplication
 
 +++
@@ -140,6 +136,10 @@ public SHA256 HashString(string value, string hashKey)
   ...
 }
 ```
+
++++
+
+Positive integers with addition
 
 ---
 
