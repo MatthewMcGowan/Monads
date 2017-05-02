@@ -55,6 +55,10 @@ public string Repeat(string x, int times)
 
 S × S → S
 
++++
+
+string x int32 → string
+
 ---
 
 ## Associativity
@@ -69,16 +73,27 @@ A x (B x C) = (A x B) x C
 
 +++
 
-Integer Multiplication: 1
+Integer Multiplication
 
 +++
 
-Integer Addition: 0
+Integer Addition
 
 +++
 
 ```csharp
-public int Repeat(string x, int times): times = 1
+public string Repeat(string x, int times)
+{
+  string retVal = string.Empty;
+  
+  for (int i = 0; i <= times; i++)
+  {
+    retVal += x;
+  }
+  
+  return retVal;
+}
+
 ```
 
 ---
@@ -101,6 +116,10 @@ public SHA256 HashString(string value, string hashKey)
   ...
 }
 ```
+
+---
+
+# .NET
 
 +++
 
