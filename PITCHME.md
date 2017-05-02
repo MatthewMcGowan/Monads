@@ -18,7 +18,7 @@
 
 ## Binary Operation
 
-![BinaryOperation](images/Binary_operations_as_black_box.svg.png)
+![BinaryOperation](https://github.com/MatthewMcGowan/Monads/tree/master/Images/Binary_operations_as_black_box.svg.png)
 
 +++
 
