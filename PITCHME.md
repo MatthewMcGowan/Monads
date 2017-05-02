@@ -359,7 +359,7 @@ static Nullable<R> ApplyFunction<A, R>(Nullable<A> nullable, Func<A, R> function
 ---
 
 ## Requirement 2
-An operation on a wrapped value produced another wrapped value, preserving the desired "amplification"?
+An operation on a wrapped value produces another wrapped value, preserving the desired "amplification"?
 
 +++
 
