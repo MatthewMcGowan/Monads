@@ -124,16 +124,16 @@ public SHA256 HashString(string value, string hashKey)
 +++
 
 ```csharp
-Nullable\<T>
+Nullable<T>
 ```
 ```csharp
-IEnumerable\<T>
+IEnumerable<T>
 ```
 ```csharp
-Task\<T>
+Task<T>
 ```
 ```csharp
-Func\<T>
+Func<T>
 ```
 
 ---
