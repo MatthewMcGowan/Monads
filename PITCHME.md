@@ -58,3 +58,10 @@ public string Repeat(string x, int times)
 * IEnumerable\<T>
 * Task\<T>
 * Func\<T>
+
+---
+
+# References and Images
+
+* https://en.wikipedia.org/wiki/Monoid
+* https://en.wikipedia.org/wiki/Binary_operation
