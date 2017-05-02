@@ -34,7 +34,7 @@
 ```csharp
 public string Repeat(string x, int times)
 {
-  string retVal;
+  string retVal = string.Empty;
   
   for (int i = 0; i <= times; i++)
   {
