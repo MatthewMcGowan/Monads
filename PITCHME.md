@@ -18,8 +18,33 @@
 
 ## Binary Operation
 
+![BinaryOperation](images/Binary_operations_as_black_box.svg.png)
+
++++
+
+## Binary Operation
+
 * +, -, \*, / 
 * String concatenation
+
++++
+
+## Binary Operation
+
+```csharp
+public string Repeat(string x, int times)
+{
+  string retVal;
+  
+  for (int i = 0; i <= times; i++)
+  {
+    retVal += x;
+  }
+  
+  return retVal;
+}
+
+```
 
 ---
 
