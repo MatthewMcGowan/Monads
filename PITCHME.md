@@ -8,7 +8,7 @@
 
 # Monoids
 
-+++
+---
 
 ## Set
 
@@ -18,7 +18,7 @@
 * Int32
 * Float
 
-+++
+---
 
 ## Binary Operation
 
@@ -48,27 +48,54 @@ public string Repeat(string x, int times)
 
 ```
 
-+++
+---
 
 ## So Far
 
-
-
-## Associativity
-
-
-
 +++
 
-## Examples
+S × S → S
 
 ---
 
-# .NET
+## Associativity
 
 +++
 
+A x (B x C) = (A x B) x C
+
+---
+
+## Identity Element
+
++++
+
+* Integer Multiplication: 1
+* Integer Addition: 0
+* public int Repeat(string x, int times): times = 1
+
+---
+
 ## Examples
+
++++
+
+Positive integers with addition
+
++++
+
+Floats with multiplication
+
++++
+
+```csharp
+public SHA256 HashString(string value, string hashKey)
+{
+  ...
+}
+```
+
++++
 
 * Nullable\<T>
 * IEnumerable\<T>
