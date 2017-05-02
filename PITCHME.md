@@ -342,7 +342,10 @@ static Nullable<T> ApplyFunction<T>(Nullable<T> nullable, Func<T, T> function) w
 +++
 
 ```csharp
-static Nullable<R> ApplyFunction<A, R>(Nullable<A> nullable, Func<A, R> function) where A: struct where R : struct
+static Nullable<R> ApplyFunction<A, R>(
+  Nullable<A> nullable, 
+  Func<A, R> function) 
+  where A: struct where R : struct
 {
     if (nullable.HasValue)
     {
@@ -364,7 +367,9 @@ An operation on a wrapped value produces another wrapped value, preserving the d
 +++
 
 ```csharp
-static Monad<R> ApplyFunction<A, R>(Monad<A> amplified, Func<A, R> function)
+static Monad<R> ApplyFunction<A, R>(
+  Monad<A> amplified, 
+  Func<A, R> function)
 ```
 
 +++
