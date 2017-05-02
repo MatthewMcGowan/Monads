@@ -14,7 +14,7 @@
 
 * {2, 4, 6}
 * {"Hello", "World"}
-* &#2124 - all integers
+* ℤ - all integers
 * Int32
 * Float
 
@@ -28,7 +28,10 @@
 
 +++
 
-* +, -, \*, / 
+* +
+* -
+* \*
+* / 
 * String concatenation
 
 +++
@@ -50,10 +53,6 @@ public string Repeat(string x, int times)
 
 ---
 
-## So Far
-
-+++
-
 S × S → S
 
 ---
@@ -70,9 +69,17 @@ A x (B x C) = (A x B) x C
 
 +++
 
-* Integer Multiplication: 1
-* Integer Addition: 0
-* public int Repeat(string x, int times): times = 1
+Integer Multiplication: 1
+
++++
+
+Integer Addition: 0
+
++++
+
+```csharp
+public int Repeat(string x, int times): times = 1
+```
 
 ---
 
