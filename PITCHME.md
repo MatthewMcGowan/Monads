@@ -18,7 +18,7 @@
 
 ## Binary Operation
 
-![BinaryOperation](Images/Binary_operations_as_black_box.png)
+![BinaryOperation](Images/Binary_operations_as_black_box_scaled.png)
 
 +++
 
