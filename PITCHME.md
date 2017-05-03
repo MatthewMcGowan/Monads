@@ -116,9 +116,10 @@ public string Concat(string x, string y)
 
 ## Monoid Definition
 
-* S × S → S
-* x is Associative
-* There exists an identity element
+* Set: S
+* Binary Operation: S × S → S
+* Associative
+* Identity element
 
 ---
 
